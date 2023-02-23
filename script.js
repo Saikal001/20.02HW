@@ -1,3 +1,29 @@
+
+
+
+//2
+let list =  ["hand", "leg", "head", "finger", "eye"];
+let example1 = document.createElement("ul");
+document.body.append(example1); 
+for (let i = 1; i<list.length; i++) {
+  let listItem = document.createElement("li");
+  listItem.textContent = list[i];
+  example1.append(listItem);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+//4
 var arr=[
   {one: 1, two: 2, three: 3, four: 4, five: 5, six: 6},
   {one: 7, two: 8, three: 9, four: 10, five: 11, six: 12},
@@ -40,3 +66,4 @@ var arr=[
   for(var i=0; i<tdSix.length; i++){
     tdSix[i].innerHTML = arr[i].six
   };
+
